@@ -1,3 +1,23 @@
 = SimpleFormInputs
 
-This project rocks and uses MIT-LICENSE.
+Install
+
+add in your gem file
+
+gem 'simple_form_inputs', github: 'olvap/simple_form_inputs'
+
+= Datepicker
+
+include in your js
+
+//= require jquery
+//= require jquery_ujs
+//= require jquery.ui.datepicker
+
+include in your css
+
+*= require jquery.ui.datepicker
+
+in the simple form
+
+= f.include :field, as: :datepicker
