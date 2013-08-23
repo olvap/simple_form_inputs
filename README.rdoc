@@ -20,4 +20,4 @@ include in your css
 
 in the simple form
 
-  = f.include :field, as: :datepicker
+  = f.input :field, as: :datepicker
